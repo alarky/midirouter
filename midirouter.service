@@ -1,0 +1,9 @@
+[Unit]
+Description=MIDI Router
+
+[Service]
+ExecStart=/home/alarky/midirouter/main.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
